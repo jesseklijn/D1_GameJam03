@@ -28,3 +28,5 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+GameJam03/Temp/UnityLockfile
+GameJam03/Library/CurrentMaximizeLayout.dwlt

@@ -67,9 +67,9 @@ public class MainMenuGUI : MonoBehaviour {
                 }
             }
 
-            if (StoryModeSelected) { boxText = "Story mode"; }
+            if (StoryModeSelected) { boxText = "Story mode";  }
             else if (HardmodeModeSelected) { boxText = "Hardcore mode"; }
-            else if (EndlessModeSelected){boxText = "Endless mode";}
+            else if (EndlessModeSelected){boxText = "Endless mode"; Application.LoadLevel(1); }
            
             if (levelSelectorOpen == true)
             {
